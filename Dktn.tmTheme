@@ -14,7 +14,7 @@
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
-				<string>#F4F4C8</string>
+				<string>#FFFFFF18</string>
 				<key>gutterForeground</key>
 				<string>#3A4A50</string>
 				<key>invisibles</key>
@@ -43,6 +43,17 @@
 				<string>underline</string>
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text and Source Base Colors</string>
+			<key>scope</key>
+			<string>text, source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F4F4C8</string>
 			</dict>
 		</dict>
 		<dict>
