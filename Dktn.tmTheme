@@ -14,7 +14,7 @@
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
-				<string>#FFFFFF18</string>
+				<string>#FFFFFF0D</string>
 				<key>gutterForeground</key>
 				<string>#3A4A50</string>
 				<key>invisibles</key>
@@ -32,7 +32,7 @@
 				<key>activeGuide</key>
 				<string>#9D550F</string>
 				<key>guide</key>
-				<string>#FFFFFF11</string>
+				<string>#FFFFFF06</string>
 				<key>bracketsForeground</key>
 				<string>#F8F8F2</string>
 				<key>bracketsOptions</key>
