@@ -232,12 +232,13 @@
     {
         "class": "disclosure_button_control",
         "layer0.texture": "Theme - Default/arrow_right.png",
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.7,
         "layer0.inner_margin": 0,
         "layer1.texture": "Theme - Default/arrow_right_over.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
-        "content_margin": [9, 7, 8, 6]
+        "content_margin": [8, 6, 8, 6]
+        // "content_margin": [9, 7, 8, 6]
     },
     {
         "class": "disclosure_button_control",
@@ -304,14 +305,14 @@
         "content_margin": [0, 0, 1, 0],
         "font.size": 9,
         "font.bold": false
-     },
+    },
     {
         "class": "sidebar_tree",
-        "row_padding": [8, 0],
-        "indent": 6,
+        "row_padding": [6, -2],
+        "indent": 4,
         "indent_offset": 10,
         "indent_top_level": false,
-        "layer0.tint": [04, 32, 41],
+        "layer0.tint": [4, 32, 41],
         "layer0.opacity": 1.0,
         "dark_content": false,
         "font.size": 9,
@@ -319,10 +320,8 @@
     },
     {
         "class": "sidebar_heading",
-        "color": [250, 250, 250],
-        "font.bold": false,
-        "shadow_color": [200, 200, 200],
-        "shadow_offset": [0, 1]
+        "color": [136, 144, 144],
+        "font.bold": false
     },
     {
         "class": "sidebar_heading",
@@ -330,29 +329,25 @@
         [
             { "class": "tree_row", "attributes": ["selected"] }
         ],
-        "shadow_color": [160, 174, 192],
         "font.bold": false
     },
     {
         "class": "sidebar_label",
-        "color": [200, 200, 200],
+        "color": [136, 144, 144],
+        // "color": [58, 74, 80],
         "font.bold": false,
         "font.size": 9
-        // , "shadow_color": [250, 250, 250], "shadow_offset": [0, 0]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [255, 255, 255]
-        // , "shadow_color": [60, 60, 60], "shadow_offset": [0, 1]
     },
-
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"]
     },
-
     {
         "class": "minimap_control",
         "viewport_color": [04, 20, 29, 150]
